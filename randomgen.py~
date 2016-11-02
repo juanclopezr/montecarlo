@@ -1,0 +1,9 @@
+m = 123346
+n = 8121
+k = 28411
+
+idum = 5
+idum = (idum*n+k)%m
+ran = float(idum)/float(m)
+
+print idum,ran
